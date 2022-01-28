@@ -1,0 +1,56 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Cherry Swash', "Hannari","Hannotate SC","HanziPen SC";
+    text-align:left;
+    font-size: 20px;
+    
+}
+header{
+    margin:0;
+    padding:0;
+    text-align: center;
+    color: black
+}
+main{
+    border-bottom: 1;
+    background-color: white;
+}
+footer{
+    background-color:rgb(157,211,211);
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:90%;
+    margin:10;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    background-color: turquoise;
+    width:200;
+    height:200px;
+}
+ul{
+    margin:15;
+    padding-left: 10;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    font-size: 50%;
+    width:90%;
+    height:30%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    font-size: 80%;
+}
+li:hover{
+    background: #f81202;
+    color:#fff;
+}
